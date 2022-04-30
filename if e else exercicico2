@@ -1,0 +1,21 @@
+package exercicio;
+import java.util.Scanner;
+public class exercicico_14 {
+	public static void main(String[]args) {
+	Scanner sc=new Scanner(System.in);
+	double maças =0;
+	System.out.println("Digite a quantidade");
+	maças=sc.nextInt();
+	if(maças>=12) {
+		System.out.println("1,00");
+		System.out.println(maças*1.0);
+	}
+	else {
+		System.out.println("1,00");
+		System.out.println(maças*1.5);
+		
+	}
+	}
+	
+
+}
