@@ -1,0 +1,18 @@
+package exercicio;
+import java.util.Scanner;
+public class exercicico_14 {
+	public static void main(String[]args) {
+	Scanner sc=new Scanner(System.in);
+	int maças =12;
+	int quantidade =12;
+	if(maças<=quantidade) {
+		System.out.println("1,00");
+	}
+	else {
+		System.out.println("1,30");
+	
+	};
+	
+
+}
+}
