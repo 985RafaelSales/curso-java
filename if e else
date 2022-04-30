@@ -1,0 +1,20 @@
+package exercicio;
+import java.util.Scanner;
+public class exercicico_14 {
+	public static void main(String[]args) {
+	Scanner sc=new Scanner(System.in);
+	int ativivdade  = 10;
+	int nota = 9;
+	if(ativivdade>=nota){
+	System.out.println("verdadeiro");
+	}
+	else{
+		System.out.println("falso");
+	}
+	
+	
+	
+	
+
+}
+}
