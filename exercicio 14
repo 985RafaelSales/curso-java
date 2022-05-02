@@ -1,0 +1,20 @@
+package exercico;
+import java.util.Scanner;
+public class java {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		int maior=0;
+		int menor=0;
+		System.out.println("Digite um numero");
+		maior=sc.nextInt();
+		if(maior>10){
+			
+			System.out.println("maior que dez");
+		}
+		else {
+			System.out.println("menor que 10");
+		}
+
+	}
+
+}
