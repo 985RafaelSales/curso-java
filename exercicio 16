@@ -1,0 +1,20 @@
+package exercico;
+import java.util.Scanner;
+public class java {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		double maças=0;
+		System.out.println("Digite um numero");
+		maças=sc.nextDouble();
+		if(maças>=12){
+			System.out.println(maças*1.0);
+			System.out.println("1 real cada maça na compra de 12 ou mais ");
+		}
+		else {
+			System.out.println(maças*1.3);
+			System.out.println("1,30 cada maça na compra de 6 ou menos maças");
+		}
+
+	}
+
+}
