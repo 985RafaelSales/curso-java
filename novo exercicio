@@ -1,0 +1,24 @@
+package exercicio;
+import java.util.Scanner;
+public class exercicico_14 {
+	public static void main(String[]args) {
+	Scanner sc=new Scanner(System.in);
+	double macas =0; // Aqui vai guardar a quantidade que pessoa vai digitar.
+	double quantidade=0;
+	double valor=0;
+	System.out.println("Digite o numero de maça");//Aqui é saida do sistema para digitar a quantidade.
+	macas=sc.nextInt();
+	if(macas>=12) {
+		System.out.println("na compra de 12 ou mais maças custara R$ 1,00");
+		System.out.println(macas*1.0);
+		System.out.println("o total a ser pago pelas maças: R$ "+ macas);
+		
+	}
+	else {
+		System.out.println("na compra de 6 ou menos maças custara R$ 1,30");
+		System.out.println(macas*1.3);
+	}
+	}
+	
+
+}
