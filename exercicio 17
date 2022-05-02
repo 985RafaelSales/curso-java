@@ -1,0 +1,24 @@
+package exercico;
+import java.util.Scanner;
+public class java {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		double nota1=0;
+		double nota2=0;
+		System.out.println("Digite um numero");
+		nota1=sc.nextDouble();
+		nota2=sc.nextDouble();
+		if(nota1>nota2){
+			System.out.println(nota2>nota1);
+			System.out.println(nota1+nota2/2);
+			System.out.println("se for maior que 6 foi aprovado ");
+		}
+		else {
+			System.out.println(nota1<nota2);
+			System.out.println(nota2<nota1);
+			System.out.println("se a nota não foi maior que 6 foi reprovado");
+		}
+
+	}
+
+}
