@@ -1,0 +1,20 @@
+package exercico;
+import java.util.Scanner;
+public class java {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		int positivo=0;
+		int negativo=-1;
+		System.out.println("Digite um numero");
+		positivo=sc.nextInt();
+		if(negativo<positivo){
+			
+			System.out.println("positivo");
+		}
+		else {
+			System.out.println("negativo");
+		}
+
+	}
+
+}
