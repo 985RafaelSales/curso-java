@@ -1,0 +1,21 @@
+package exercicio;
+import java.util.Scanner;
+public class exercicio {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	int maior=0;
+	int menor=0;
+	System.out.println("digite um numero maior");
+	maior=sc.nextInt();
+	System.out.println("digite um numero menor");
+	menor=sc.nextInt();
+	if(maior>menor) {
+		System.out.println(" correto!! " +maior+  " é maior que  " + menor );
+	}
+	else {
+		System.out.println(" errado!! " + menor + "  é maior que  " + maior);
+	}
+	}
+
+}
