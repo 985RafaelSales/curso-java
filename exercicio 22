@@ -1,0 +1,19 @@
+package exercicio;
+import java.util.Scanner;
+public class exercicio {
+
+	public static void main(String[] args) {
+	
+	Scanner sc=new Scanner(System.in);
+	double salario=0;
+	double horaextra=0;
+	double pagar=0;
+	System.out.println("digite o salario");
+	salario=sc.nextDouble();
+	System.out.println("hora extra");
+	horaextra=sc.nextDouble();
+	System.out.println(horaextra+salario*50);
+	System.out.println(salario+horaextra/4);
+	System.out.println("tem que pagar de hora");
+	}
+}
