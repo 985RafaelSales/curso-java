@@ -1,0 +1,22 @@
+package exercicio;
+import java.util.Scanner;
+public class exercicio {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	int crescente=0;
+	int crescente1=0;
+	int decrescente=0;
+	System.out.println("digite numeros crescentes ");
+	crescente=sc.nextInt();
+	System.out.println("digite numeros crescentes");
+	crescente1=sc.nextInt();
+	if(crescente==crescente) {
+		System.out.println( " correto!! " +crescente+ " e "+crescente1);
+	}
+	else {
+		System.out.println(" errado!! "+crescente+ "é um decrescente");
+	}
+	}
+
+}
