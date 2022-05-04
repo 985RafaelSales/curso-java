@@ -1,0 +1,66 @@
+package exercicio;
+import java.util.Scanner;
+public class exercicio {
+
+	public static void main(String[] args) {
+	
+	Scanner sc=new Scanner(System.in);
+	int signos=0;
+	int dias=0;
+	int mes=0;
+	System.out.println("digite o mes que você nasceu?");
+	dias=sc.nextInt();
+	switch(dias) {
+	case 1:
+	System.out.println("Capricornio");
+	System.out.println("se você for de 19 dezembro a 20 janeiro você capricorniano");
+	break;
+	case 2:
+	System.out.println("Aquario");
+	System.out.println("se você for do dia 20 de janeiro a 18 feveiro você é aquariano");
+	break;
+	case 3:
+		System.out.println("Peixes");
+		System.out.println("se você for do dia 18 feveiro a 20 de março você é peixes");
+	break;
+	case 4:
+		System.out.println("Aries");
+		System.out.println("se você for do dia 21 março a 20 de abril você é aries");
+		break;
+	case 5:
+		System.out.println("Touro");
+		System.out.println(" se você for do dia 21 de abril a 20 de maio "+dias);
+		break;
+	case 6:
+		System.out.println("Gemeos");
+		System.out.println("se você é do dia 21 de maio 20 de junho você é geminiano");
+		break;
+	case 7:
+	System.out.println("Cancer");
+	System.out.println("se você é do dia 21 junho a 22 de julho você é canceriano");
+	   break;
+	case 8:
+	System.out.println("Leão");
+	System.out.println("se você é do dia 23 de julho a 22  agosto você é leonino");
+	   break;
+	   case 9:
+		System.out.println("Virgem");
+		System.out.println("se você é do dia 23 agosto a 22 de setembro você é virginiano");
+		break;
+	case 10:
+		System.out.println("Libra");
+		System.out.println("se você é do dia 23 de setembro a 22 de outubro você é libriano ");
+		break;
+	case 11:
+		System.out.println("Escorpião");
+		System.out.println("se você é do dia 23 de outubro a 21 novembro você é escorpião");
+		break;
+	case 12:
+		System.out.println("Sargitario");
+		System.out.println("se você é do dia 22 de novembro a 21 de dezembro você é sargitariano");
+		break;
+		default:
+		System.out.println("Não identificado");
+	}
+	}
+}
