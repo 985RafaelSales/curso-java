@@ -1,0 +1,19 @@
+package exercicio;
+import java.util.Scanner;
+public class exercicio {
+
+	public static void main(String[] args) {
+	
+	Scanner sc=new Scanner(System.in);
+	double tempo=0;
+	double horacomeça=1200;
+	double menos=0;
+	System.out.println("digite o tempo do jogo");
+	tempo=sc.nextInt();
+	System.out.println("digite a hora que começa");
+	horacomeça=sc.nextInt();
+	System.out.println(horacomeça*tempo/60);
+	System.out.println(1200+tempo);
+	System.out.println(" O jogo termina "+horacomeça+" ou seja termina em ");
+	}
+}
