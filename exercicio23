@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class atividade_22 {
+
+public static void main(String[] args) { 
+			Scanner sc=new Scanner(System.in);
+			int m=0;
+			double altura=0;
+			double peso=0;
+			System.out.println("digite seu nome");
+			m=sc.nextInt();
+			System.out.println("digite seu sexo");
+			sc.nextInt();
+			System.out.println("digite sua altura");
+			altura=sc.nextDouble();
+			System.out.println("digite seu peso");
+			peso=sc.nextDouble();
+			System.out.println(peso*altura-58);
+			if(peso==altura) {
+				System.out.println("seu peso é ideal" +peso);
+			}
+			else
+				System.out.println(" seu peso não é ideal " +peso);
+			}
+
+	}
+
+
