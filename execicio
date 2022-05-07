@@ -1,0 +1,21 @@
+package exercicio46;
+import java.util.Scanner;
+public class exercicio {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int tabuada=0;//não precisa colocar o numero da variavel.
+		int freio=0;
+		
+		System.out.println("digite um numero");
+		tabuada=sc.nextInt();
+		do {
+			System.out.println(tabuada*freio);//faz tabuada * freio.
+			freio++;
+		}
+		while(freio<11)//não esqueça colocar valor se é menor ou maior.
+		
+			
+		}
+
+	}
