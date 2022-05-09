@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class exercicio_e {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	int b=5;
+	int e=20;
+	while(b<=20) {
+		b++;
+		System.out.println(b*e);
+	}
+		
+
+	}
+
+}
