@@ -1,0 +1,15 @@
+package atividade;
+import java.util.Scanner;
+public class exercicio {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	double n1,n=3;
+	double resultado=0;
+	while(resultado<=15){
+	n1=n+resultado;
+	resultado++;
+	}
+	}
+
+	}
